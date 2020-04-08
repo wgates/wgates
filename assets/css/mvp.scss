@@ -487,7 +487,14 @@ footer a {
     .logo { background: url("~assets/images/wg-light.svg")  no-repeat; background-size: contain;}
     main a { color:#fff}
     .text-accent {color: #9a9a9a;}
-    footer a {color:#fff;}
+    footer a {color:;}
+    main a {
+        background:
+         linear-gradient(
+           to bottom, #037d91 0%,
+           #037d91 100%
+         );
+    }
   }
 
   @media only screen and (max-width: 1024px) {
