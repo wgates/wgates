@@ -402,7 +402,7 @@ main span {
 
 .guru:before {
     content: '';
-    background-image: url(/_nuxt/assets/images/hate-that-word.gif);
+    background-image: url(~assets/images/hate-that-word.gif);
     background-position: 0 30%;
     background-repeat: no-repeat;
     background-size: 25%;
@@ -414,6 +414,7 @@ main span {
     transform: translateY(100%);
     transition: transform .3s;
 }
+
 
 .guru:hover::before {
     transform: translateY(0px);
