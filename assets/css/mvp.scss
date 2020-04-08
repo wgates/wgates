@@ -489,11 +489,10 @@ footer a {
     .text-accent {color: #9a9a9a;}
     footer a {color:#fff;}
     main a {
-        background:
-         linear-gradient(
-           to bottom, #037d91 0%,
-           #037d91 100%
-         );
+        background: linear-gradient(180deg,#037d91 0,#037d91);
+        background-position: 0 100%;
+        background-repeat: repeat-x;
+        background-size: 4px 4px;
     }
   }
 
