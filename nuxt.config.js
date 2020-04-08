@@ -5,14 +5,32 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Wes Gates | Shopify Developer San Diego',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: 'Wes Gates, shopify plus expert and shopify expert. San Diego based shopify developer.' },
+      { hid: 'twitter:site', name: 'twitter:site', content: '@eyywes' },
+      { hid: 'twitter:creator', name: 'twitter:creator', content: '@eyywes' },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: '/favicon.png'
+      },
+      {
+        hid: 'og:site_name',
+        name: 'og:site_name',
+        content: 'Wes Gates - Shopify Developer'
+      },
+      { hid: 'og:title', name: 'og:title', content: 'Wes Gates - Shopify Developer' },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content: 'Wes Gates, shopify plus expert and shopify expert. San Diego based shopify developer.'
+      }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
     ]
   },
   /*
